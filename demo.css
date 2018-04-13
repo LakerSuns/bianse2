@@ -1,0 +1,44 @@
+div{
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background: #203;
+	animation:bianse 3s infinite; 
+	margin: 0 auto;
+}
+@keyframes bianse{
+	0%{
+		background: red;
+	}
+	10%{
+		background: orange;
+	}
+	20%{
+		background: yellow;
+	}
+    30%{
+		background: green;
+	}
+	40%{
+		background: blue;
+	}
+	50%{
+		background: deeppink;
+	}
+	60%{
+		background: purple;
+	}
+70%{
+	background: yellowgreen;
+}
+	80%{
+		background: yellow;
+	}
+90%{
+	background: gray;
+}
+	100%{
+		background: #58a;
+	}
+
+}
